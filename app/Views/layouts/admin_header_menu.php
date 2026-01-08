@@ -1,28 +1,32 @@
+<?php
+$uri = service('uri');
+$current_page = ($uri->getTotalSegments() >= 2) ? $uri->getSegment(2) : '';
+?>
 <div class="pure-g" id="spgsadmin-topmenu">
 	<!-- 該当ページのボタンはthispageクラスを入れる -->
 	<div class="l-box pure-u-1-5">
 		<?php echo form_open('spgsadmin/upload/'); ?>
-		<button type="submit" class="pure-button topbutton">照会用データ読込</button>
+		<button type="submit" class="pure-button topbutton <?= ($current_page == 'upload') ? 'thispage' : '' ?>">照会用データ読込</button>
 		<?= form_close(); ?>
 	</div>
 	<div class="l-box pure-u-1-5">
 		<?php echo form_open('spgsadmin/userlogin_disp/'); ?>
-		<button type="submit" class="pure-button topbutton">ログイン履歴照会</button>
+		<button type="submit" class="pure-button topbutton <?= ($current_page == 'userlogin_disp') ? 'thispage' : '' ?>">ログイン履歴照会</button>
 		<?= form_close(); ?>
 	</div>
 	<div class="l-box pure-u-1-5">
 		<?php echo form_open('spgsadmin/pwdmail/'); ?>
-		<button type="submit" class="pure-button topbutton">管理者データ出力</button>
+		<button type="submit" class="pure-button topbutton <?= ($current_page == 'pwdmail') ? 'thispage' : '' ?>">管理者データ出力</button>
 		<?= form_close(); ?>
 	</div>
 	<div class="l-box pure-u-1-5">
 		<?php echo form_open('spgsadmin/pwduser_disp/0'); ?>
-		<button type="submit" class="pure-button topbutton thispage">お客様パスワード変更・初期化</button>
+		<button type="submit" class="pure-button topbutton <?= ($current_page == 'pwduser_disp') ? 'thispage' : '' ?>">お客様パスワード変更・初期化</button>
 		<?= form_close(); ?>
 	</div>
 	<div class="l-box pure-u-1-5">
 		<?php echo form_open('spgsadmin/upload2/'); ?>
-		<button type="submit" class="pure-button topbutton">照会用データ<br>（お客様 個別）読込</button>
+		<button type="submit" class="pure-button topbutton <?= ($current_page == 'upload2') ? 'thispage' : '' ?>">照会用データ<br>（お客様 個別）読込</button>
 		<?= form_close(); ?>
 	</div>
 </div>
