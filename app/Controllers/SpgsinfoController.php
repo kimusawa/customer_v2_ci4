@@ -1104,6 +1104,7 @@ END;
 
 		// 成功時はセッションも更新
 		session()->set('pwd', $newpwd);
+		session()->set('login_pwd', $newpwd);
 		$db->transComplete();   // トランザクション終了
 
 		log_message('debug', '★Spgsinfoコントローラー pwdupdate_ex メールアドレスを更新しました。');

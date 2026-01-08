@@ -38,7 +38,7 @@
 		<div class="pure-g" id="spgsadmin-login-form">
 			<div class="pure-u-lg-1-6 pure-u-1"></div>
 			<div class="pure-u-lg-2-3  pure-u-1">
-				<?php echo form_open('spgsadmin/pwdmail_disp'); ?>
+				<?php echo form_open('spgsadmin/pwdmail_disp', ['method' => 'get']); ?>
 				<table id="table01" align="center">
 					<colgroup>
 						<col class="col01" />
