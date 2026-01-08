@@ -35,6 +35,15 @@ class InstanceConfigFilter implements FilterInterface
         // site_type 確定（ログイン前）
         $siteType = ($firstSegment === 'spgsadmin') ? 'admin' : 'user';
 
+        // セッション名を動的に変更（セッション開始前に設定）
+        $sessionConfig = config('Session');
+
+        if ($siteType === 'admin') {
+            $sessionConfig->cookieName = 'ci_session_admin';
+        } else {
+            $sessionConfig->cookieName = 'ci_session_user';
+        }
+
         log_message('debug', "★[{$fid}] Calling session()->set('site_type')...");
         session()->set('site_type', $siteType);
         log_message('debug', "★[{$fid}] session()->set('site_type') DONE.");

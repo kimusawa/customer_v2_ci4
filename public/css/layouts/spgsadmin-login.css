@@ -1,0 +1,64 @@
+/* 表示情報はテーブルで配置（レイアウト枠はpureを使ったDIVで） */
+
+/* メニューボタンを省いた場合の高さ調整 */
+.content-wrapper{top:90px;}
+
+/* ログイン入力個所 */
+#table01		{
+	width:24rem;
+	margin-top : 150px;
+	margin-bottom : 150px;
+}
+#table01 td		{ padding-left : 5px; padding-right : 5px; }
+#table01 .col01	{ width : 8rem; }
+#table01 .col02	{ width : 16rem; }
+#table01 input  { width : 100%; }
+.login-title	{ font-size : 1.5rem; padding-bottom: 1.5rem;}
+.error-disp		{color : red; font-weight:bold;}
+
+
+/* メディアクエリ */
+
+/* PC */
+@media screen and (min-width : 1007px) {
+	.content-wrapper{
+		height : calc( 100vh - 150px);
+	}
+	.content{
+		height : calc( 100vh - 121px);
+		min-height : 480px!important;
+	}
+}
+@media screen and (min-width : 960px) and (max-width : 1006px) {
+	.content-wrapper{
+		top:30px;
+		height : calc( 100vh - 150px);
+	}
+	.content{
+		height : calc( 100vh - 90px);
+		min-height : 480px;
+	}
+}
+/* Tablet */
+@media screen and (min-width : 767px) and (max-width : 959px) {
+	.content-wrapper{ top:30px;}
+	.content{
+		height : calc( 100vh - 89px);
+		min-height : 400px;
+	}
+}
+/* SmartPhone */
+@media screen and (min-width : 568px) and (max-width : 766px) {
+	.content-wrapper{ top:10px;}
+	.content{
+		height : calc( 100vh - 58px);
+		min-height : 250px;
+	}
+}
+@media screen and (max-width : 567px) {
+	.content-wrapper{ top:10px;}
+	.content{
+		height : calc( 100vh - 58px);
+		min-height : 350px;
+	}
+}

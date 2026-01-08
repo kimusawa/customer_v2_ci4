@@ -1,0 +1,182 @@
+.menu_box_text {
+     padding-left: 12px
+}
+
+.menu_box {
+     text-decoration: none;
+     display: block;
+     font-size:12px;
+     text-align:left;
+     font-weight:bold;
+     background: url("../../../list/images/lpkyo/menu1_12416780180.jpg") no-repeat;
+     height :34px;
+     line-height :34px;
+     color: #ffffff ;
+}
+
+.menu_box a {
+     text-decoration: none;
+     display: block;
+     font-size:12px;
+     text-align:left;
+     font-weight:bold;
+     background: url("../../../list/images/lpkyo/menu1_12416780180.jpg") no-repeat;
+     height :34px;
+     line-height :34px;
+     color: #ffffff ;
+}
+
+.menu_box a:link {
+     color: #ffffff;
+}
+
+.menu_box a:active {
+     color: #ffffff;
+}
+
+.menu_box a:visited{
+     color: #ffffff;
+}
+
+.menu_box a:hover {
+     width:155px;
+     background: url("../../../list/images/lpkyo/menu2_12416780185.jpg") no-repeat;
+     height :34px;
+     line-height :34px;
+     color: #006AB4 ;
+}
+
+.menu_box_head{
+     width:155px;
+     font-size:1px;
+     background: url("../../../list/images/lpkyo/menuhead_12416780187.jpg") no-repeat;
+     height :37px;
+     line-height :37px;
+}
+
+.menu_box_foot{
+     width:155px;
+     background: url("../../../list/images/lpkyo/menufoot_12416780186.jpg") no-repeat;
+     height :50px;
+     line-height :50px;
+}
+
+.category_title {
+     font-size:14px;
+     font-weight:bold;
+     padding: 0px 0px 0px 20px;
+     margin: 0px 0px 0px 0px;
+     text-align:left;
+     background: url("../../../list/images/lpkyo/cattitle_12416780185.jpg") no-repeat;
+     height :52px;
+     line-height :52px;
+     color:#ffffff;
+}
+
+.article_title {
+     font-size:12px;
+     font-weight:bold;
+     padding: 0px 0px 0px 20px;
+     margin: 10px 0px 10px 0px;
+     clear:both;
+     background: url("../../../list/images/lpkyo/contitle_12417765082.jpg") no-repeat;
+     height :29px;
+     line-height :29px;
+     color:#006AB4;
+}
+
+.login_bg a {
+     text-decoration: none;
+     display: block;
+     font-size:12px;
+     text-align:center;
+     margin-top:10px;
+     width:155px;
+     font-weight:bold;
+     color: #ffffff;
+}
+
+body{
+     background: url("../../../list/images/lpkyo/bg_12416780187.jpg");
+     background-position: center top;
+     background-repeat: repeat-x ;
+/*     background-color: #63AECF ; */
+     background-color: #68CFCE ;
+}
+
+#header{
+     background: url("../../../list/images/lpkyo/header_13647744322.jpg") no-repeat;
+     height :152px;
+     line-height :152px;
+}
+
+#head_text{
+     color: #ffffff ;
+}
+
+.footer{
+     width:750px;
+     background: url("../../../list/images/lpkyo/footer_12416780183.jpg") no-repeat;
+     height :49px;
+     line-height :49px;
+}
+
+.footer .footer_text{
+     color: #ffffff ;
+}
+
+.nest_box a{
+     font-weight: normal;
+     text-decoration: none;
+     height: 25px;
+     line-height:25px;
+     padding-left: 3px;
+     width: 157px;
+     _width: 160px;
+     border: solid 1px #FFF;
+     background:#3A7FAA;
+     color:#ffffff;
+}
+
+.nest_box a:link{
+     font-weight: normal;
+     text-decoration: none;
+     height: 25px;
+     line-height:25px;
+     padding-left: 3px;
+     width: 157px;
+     _width: 160px;
+     border: solid 1px #FFF;
+/*     background:#3A7FAA; */
+     background:#3C9CA5;
+     color:#ffffff;
+}
+
+.nest_box a:visited{
+     font-weight: normal;
+     text-decoration: none;
+     height: 25px;
+     line-height:25px;
+     padding-left: 3px;
+     width: 157px;
+     _width: 160px;
+     border: solid 1px #FFF;
+/*    background:#3A7FAA; */
+     background:#3C9CA5;
+     color:#ffffff;
+}
+
+.nest_box a:hover{
+     font-weight: normal;
+     text-decoration: none;
+     height: 25px;
+     line-height:25px;
+     padding-left: 3px;
+     width: 157px;
+     _width: 160px;
+     border: solid 1px #FFF;
+/*     background:#63AECF; */
+     background:#2C8C95;
+     color:#ffffff;
+}
+

@@ -1,0 +1,148 @@
+/* åüçıèåèì¸óÕ */
+.kensaku-input{padding-top:0; padding-bottom:0; }
+#table01		{ width : 44rem;}
+#table01 .col01	{ width : 6rem;}
+#table01 .col02 { }
+#table01 .col03 { width : 6rem;}
+#table01 .col04 {}
+#table01 .col05 { width : 6rem;}
+#table01 .col06 {}
+#table01 input[type="text"]{width:150px!important;}
+#kensaku_submit { width : 100%;margin-top:20px;}
+
+/* åüçıåãâ ÉäÉXÉg */
+
+#table02		{ width : 100%;font-size: 0.95rem;}
+#table02 .col01	{ width : 9rem;}
+#table02 .col02 { width : 22rem;}
+#table02 .col03 { width : 21rem;}
+#table02 .col04 { width : 17rem;}
+#table02 .col05 { width : 10rem;}
+#table02 .col06 { width : 4rem;}
+
+/* ÉÅÉfÉBÉAÉNÉGÉä */
+
+/* ÉXÉ}ÉzÇ≈ÇÃï∂éöê‹ÇËï‘Çµ */
+@media screen and (max-width: 600px){
+	#table01		{ width : 100%;}
+	#table01 td		{ display : inline-block;}
+	#table01 .td-title { width : 30%;}
+	#table01 .td-input { width : 70%;}
+	#table01 .td-submit { width :100%;}
+	#table01 td input[type="text"]{ width : 100%!important;}
+}
+
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* Nexus èc */
+@media (device-width: 412px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* iPhone 5 â° */
+@media (device-width: 568px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* Galaxy 5S â° */
+@media (device-width: 640px) {
+	#table01		{ width : 100%;font-size: 0.65rem;}
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* Nexus 5X â° */
+@media (device-width: 732px) {
+	#table01		{ width : 100%;}
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* iPhone 6plus â° */
+@media (device-width: 736px) {
+	#table01		{ width : 100%;}
+	#table02		{ width : 70rem;font-size: 0.95rem;}
+	#table02 .col01	{ width : 9rem;}
+	#table02 .col02 { width : 18rem;}
+	#table02 .col03 { width : 21rem;}
+	#table02 .col04 { width : 10rem;}
+	#table02 .col05 { width : 10rem;}
+	#table02 .col06 { width : 4rem;}
+}
+/* iPad èc */
+@media (device-width: 768px) {
+#table02 tbody	{ font-size : 0.8rem;line-height:0.9rem;}
+
+}
+/* iPad â° */
+@media (device-width: 1024px) {
+#table02 tbody	{ font-size : 0.75rem;}
+
+}

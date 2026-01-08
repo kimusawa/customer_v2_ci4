@@ -1,0 +1,512 @@
+/* ���Ӑ�pSPGS�Ɖ�i�W��CSS�j */
+/*
+//**************************************************************************
+// Creation:　株式会社 イングコーポレーション
+//   SYSTEM:　ＷＥＢ照会
+//**************************************************************************
+//　Modeule           Spgsinfo　css
+//**************************************************************************
+//  日付      担当者      変更理由（仕変コード）
+//--------------------------------------------------------------------------
+//2025.03.13  s.matsumoto  Mnt-001  3部料金の設備使用料の説明の為
+//--------------------------------------------------------------------------
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+form{ display : inline!important; }
+
+h1, h2, h3, h4, h5, h6, label {
+    color: #34495e;
+}
+
+.header{
+	color:white;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.space {
+    height: 30px;
+    display: block;
+}
+/*
+ * -- LAYOUT STYLES --
+ * These are some useful classes which I will need
+ */
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+/*    border-bottom: 1px solid rgba(0,0,0,0.1); */
+}
+
+.is-center {
+    text-align: center;
+}
+
+
+
+/*
+ * -- PURE FORM STYLES --
+ * Style the form inputs and labels
+ */
+.pure-form label {
+    margin: 1em 0 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pure-form input[type] {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/*
+ * -- PURE BUTTON STYLES --
+ * I want my pure-button elements to look a little different
+ */
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 20px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+.topbutton {
+    width: 100%;
+}
+/* 20231226 請求紹介ページ↓ */
+.seikyu-content{
+    min-height: calc(100vh - 131px);
+}
+.seikyubotton{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #009944;
+    color: #fff;
+    padding: 10px;
+    border: unset;
+    border-radius: 15px;
+    border: 5px solid #fa8131;
+}
+.seikyubotton:hover {
+    background-color: #e2f0d9;
+    color: #333;
+}
+.seikyu_syokai{
+    width: 820px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.seikyu_syokai p{
+    text-align: center;
+}
+.seikyu_syokai_btn{
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 300px;
+    color: #fff;
+    background-color: #66d;
+    border: unset;
+    border-radius: 5px;
+}
+.seikyu_syokai_btn:hover{
+    background-color: #88f;
+    color: #fff;
+}
+@media screen and ( max-width:820px)  {
+    .seikyu_syokai{
+        width: 100%;
+    } 
+}
+/* 20231226 請求紹介ページ↑ */
+
+/*
+ * -- MENU STYLES --
+ * I want to customize how my .pure-menu looks at the top of the page
+ */
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu.pure-menu-open {
+    background: #ffffff;
+}
+.pure-menu.pure-menu-open.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+
+/*
+ * -- SPLASH STYLES --
+ * This is the blue top section that appears on the page.
+ */
+
+.splash-container {
+    background: #1f8dd6;
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* This is the main heading that appears on the blue section */
+.splash-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the blue section)
+ */
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white;
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #1f8dd6;
+}
+    .content-subhead i {
+        margin-right: 7px;
+    }
+
+/* This is the class used for the dark-background areas. */
+.ribbon {
+    background: #2d3e50;
+    color: #aaa;
+}
+
+/* This is the class used for the footer */
+.footer {
+    background: #111;
+}
+
+/* SPGS�J�X�^�}�C�Y�i�W���j */
+/* Text-align */
+.text-left{ text-align : left;}
+.text-right{ text-align : right;}
+.text-center{ text-align : center;}
+
+/* �F�g */
+.border-waku{
+	border:1px solid #68f;
+	padding : 5px 15px 30px 15px;
+	height:100%;
+}
+#spgsinfo-kyotsu div{padding-left:3rem;letter-spacing:0.1rem;line-height:1.8rem; font-size: 1.3rem; }
+#spgsinfo-kyotsu div span{border-bottom:1px solid #68f;}
+#spgsinfo-kyotsu .usercode{font-size:1.25rem;}
+#spgsinfo-kyotsu .kokyakumei{font-size:;}
+#spgsinfo-kyotsu br{display:none;}
+
+.pure-button{height:100px;}
+.header-button{height:55px!important; margin-top:1px; }
+.half-button{height:45px; margin-top:5px; }
+.login-w{ margin: 0 auto; width: 800px;}
+.login-w p{ text-align: center;}
+.login-button{ width: 100%;}
+.login-w2{ width: 800px; margin: 0 auto;}
+.hajimete-t{text-align: center; font-size: 1.3rem; font-weight: bold; margin: 0;}
+.hajimete-p{ text-align: center; line-height: 2rem; font-size: 1.15rem;}
+
+@media screen and ( max-width:820px)  {
+	.login-w { width: 94%; }
+	.login-w2 { width: 94%; }
+}
+
+#spgsinfo-topmenu-mobile{display:none;}
+#spgsinfo-topmenu{}
+
+.mobile-menu{width: 23%; height: 50px; margin: 15px 1% 0; border-radius: 10px;font-size: 0.6rem;}
+.mobile-menu2{width: 47.7%; height: 50px; margin: 15px 1% 0; border-radius: 10px;font-size: 0.6rem;}
+.blue{color:blue;}
+.red{color:red;}
+.error-disp p{margin-top:0;margin-bottom:0;}
+
+.mobile-br{display:none;}
+.mobile-br2{display:none;}
+
+/*<!--[Mnt-001]----------------------------------------------------------------------------------------- >> Edit Start 25/03/13 -->*/
+.pc-space{width: 128px; display: inline-block;}
+
+@media screen and ( max-width:766px)  {
+	.pc-br{display: none;}
+    .pc-space{display: none;}
+}
+/*<!--[Mnt-009]<<------------------------------------------------------------------------------------------ Edit E n d 25/03/13 -->*/
+
+#pagination{    width: 1000px; margin: 0 auto 5pt; display: block;}
+@media screen and ( max-width:820px)  {
+	#pagination{width: 100%;}
+}
+#pagination .pure-button{height:50px; border: 0px solid #fff;}
+.pagination-waku{padding-top:0px;padding-bottom:0px;}
+
+/* SPGS�J�X�^�}�C�Y�i�W���j�����܂� */
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+    /* We want to give the content area some more padding */
+    .content {
+        padding: 1em;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+    /* We increase the height of the splash-container */
+/*    .splash-container {
+        height: 500px;
+    }*/
+
+    /* We decrease the width of the .splash, since we have more width
+    to work with */
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large devices, we want to over-ride some
+ * of the mobile and tablet styles.
+ */
+@media (min-width: 78em) {
+    /* We increase the header font size even more */
+    .splash-head { font-size: 300%; }
+
+}
+@media screen and (max-width: 479px){
+	.home-menu .pure-menu-heading img	{ width:220px;}
+	.home-menu ul img			{
+	/*	width:50px; */
+		display:none;
+	}
+	.pure-menu li a {
+	    padding: 5px 0px;
+	}
+	#spgsinfo-topmenu-mobile{display:block;}
+	#spgsinfo-topmenu{display:none;}
+	.header ul input{display:none!important;}
+	#spgsinfo-kyotsu{font-size: 0.72rem;}
+	.spgsinfo-list{overflow-y:scroll;}
+	#pagination input{font-size:0.8rem;width:58px;padding-left:10px;}
+	#spgsinfo-kyotsu div{padding-left:1rem;letter-spacing:0.05rem;}
+	#spgsinfo-kyotsu br{display:inline;}
+	.hajimete-t{font-size:0.8rem;}
+	.hajimete-p{font-size:0.8rem;}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 623px){
+	.home-menu .pure-menu-heading img{ width:180px;}
+	.home-menu ul img				 {	width:70px;}
+	#spgsinfo-topmenu-mobile{display:block;}
+	#spgsinfo-topmenu{display:none;}
+	.header ul input{display:none!important;}
+	.spgsinfo-list{overflow-y:scroll;}
+	#pagination input{font-size:0.8rem;width:80px;padding-left:20px;}
+	#spgsinfo-kyotsu div{padding-left:1rem;letter-spacing:0.05rem;}
+	#spgsinfo-kyotsu br{display:inline;}
+	.hajimete-t{font-size:0.8rem;}
+	.hajimete-p{font-size:0.8rem;}
+}
+@media screen and (min-width: 624px) and (max-width: 820px){
+	.home-menu .pure-menu-heading img	{ width:200px;}
+	.home-menu ul img					{ width:200px;}
+	#spgsinfo-topmenu-mobile{display:block;}
+	#spgsinfo-topmenu{display:none;}
+	#spgsinfo-kyotsu br{display:none;}
+	.header ul img{width :100px;}
+	.header ul input{height:30px!important;}
+	.spgsinfo-list{overflow-y:scroll;}
+	.header-button	{ font-size: 0.5rem; padding: 2px 5px; }
+	.hajimete-t{font-size:0.8rem;}
+	.hajimete-p{font-size:0.8rem;}
+}
+@media screen and (min-width: 821px) and (max-width: 899px){
+	.home-menu .pure-menu-heading img	{ width:300px;}
+	.home-menu ul img					{ width:150px;}
+	.pure-button{font-size:0.7rem;}
+	.hidden-tab{display:none;}
+	.header ul img{width :100px;}
+	#spgsinfo-kyotsu br{display:none;}
+}
+@media screen and (min-width: 900px) and (max-width: 1079px){
+	.home-menu .pure-menu-heading img	{ width:300px;}
+	.home-menu ul img					{ width:200px;}
+	#spgsinfo-kyotsu br{display:none;}
+	.pure-button{ font-size:0.8rem; padding: 0.5em 0.5em;}
+}
+
+
+
+/* �X�}�z�ł̕����܂�Ԃ� */
+@media screen and (max-width: 699px){
+	.mobile-br{display:inline;}
+	.mobile-br2{display:inline;}
+}
+/* �X�}�z�ł̕����܂�Ԃ� */
+@media screen and (min-width: 700px){
+	.mobile-br{display:none;}
+	.mobile-br2{display:none;}
+}
+/* iPad �� */
+@media (device-width: 1024px) {
+	#spgsinfo-kyotsu br{display:none;}
+}
+
+/* PC */
+@media screen and (min-width : 1007px) {
+	.content-wrapper { top: 99px; }
+}
+@media screen and (min-width : 960px) and (max-width : 1006px) {
+	.content-wrapper { top: 100px; }
+}
+/* Tablet */
+@media screen and (min-width : 767px) and (max-width : 959px) {
+	.content-wrapper { top: 90px; }
+}
+/* SmartPhone */
+@media screen and (min-width : 568px) and (max-width : 766px) {
+	.content-wrapper { top: 90px; }
+}
+
+@media screen and (max-width : 567px) {
+	.content-wrapper { top: 70px; }
+}
+
+@media screen and (max-width : 316px) {
+	.content-wrapper { top: 122px; }
+}

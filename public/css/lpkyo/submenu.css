@@ -1,0 +1,29 @@
+@charset "EUC-JP";
+
+/*
+==================================================================
+SUBMENU y-motoo
+==================================================================
+*/
+.menu_box{
+    position:relative;
+}
+
+.nest_box{
+    display: block;
+    visibility: hidden;
+    position:absolute;
+    top:2px;
+    left:155px;
+    width: 160px;
+    list-style-type: none;
+    border: solid 0px #666666;
+    z-index: 110;
+}
+
+.nest_box li{
+    width:100%;
+    vertical-align:bottom;
+    *display:inline;
+}
+

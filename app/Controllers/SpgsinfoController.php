@@ -1183,10 +1183,17 @@ END;
 	////////////////////////////////////////////////////////////////////////////////////////
 	//		決済サイトから移動
 	////////////////////////////////////////////////////////////////////////////////////////
-	public function Redgfpayment(string $text)
+	public function Redgfpayment($text = null)
 	{
 
 		log_message('debug', '★Spgsinfoコントローラー Redgfpayment が呼び出されました。');
+		log_message('debug', '★Redgfpayment セッション状態: user_logged_in=' . (session('user_logged_in') ? 'true' : 'false'));
+		log_message('debug', '★Redgfpayment セッションID: ' . session_id());
+
+		if (is_null($text)) {
+			log_message('debug', '★Spgsinfoコントローラー Redgfpayment キャンセル（引数なし）されました。');
+			return redirect()->to('spgsinfo/kensin_disp');
+		}
 
 		// 引数(getクエリ)取得
 		$args = service('dgfpayment')->GetArgs($text);

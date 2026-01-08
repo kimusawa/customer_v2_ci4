@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html, body { height: 100%; }
+	body {
+		color: aaa;
+		backgorund-color: #fff;
+		font-size: 0.87em;
+		font-family:
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		"メイリオ", Meiryo, Osaka,
+		"ＭＳ Ｐゴシック",
+		"MS PGothic",
+		sans-serif;
+	}
+
+	/* フォームをインライン化 */
+	form#ichiran, form#menu, form#logout, form.form_inline { display: inline; }
+
+	#header {
+		background-color: #1f9fd9;
+		height: 60px;
+		text-align:left;
+		color:#ffffff;
+		min-width:1200px;
+	}
+	#head-l {
+		float: left;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+	#head-r { float: right; }
+	#head-tb {
+		margin:15px 0 0 0;
+		padding:0;
+	}
+	#formtopborder1-1 {
+		width: 98%;
+		height: 15px;
+		margin: 0 auto;
+		padding: 0;
+		background-color: #ffffff;
+	}
+	#formtopborder1-2 {
+		width: 98%;
+		height:40px;
+		margin: 0 auto;
+		padding: 0;
+		background-color: #ffffff;
+		font-size: 18pt;
+		/*width:1120px;*/
+		/*min-width:1120px;*/
+		width:1200px;
+		min-width:1200px;
+	}
+	#formtopborder1-3 {
+		width: 920px;
+		height: 2px;
+		margin: 0 auto;
+		padding: 0;
+		background-color: #94d8f8;
+	}
+
+	img#ing {
+		position: relative;
+		z-index: 2;
+		top: 38px;
+		left: -450px;
+		background-color: #ffffff;
+	}
+
+
+	#container {
+		width: 100%;
+		background: #ffffff;
+		position: relative;
+		height: 100%;
+		min-height: 100%;
+		/* ローディング表示対応 */
+		display: none;
+
+	}
+	body > #container {height: auto;}
+
+	/* ローディング表示用 */
+	#loading{
+		position:absolute;
+		left:50%;
+		top:20%;
+		margin-left:-30px;
+	}
+
+	#contents {
+		width: 100%;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	#footer {
+		width: 100%;
+		background: #1f9fd9;
+		bottom: 0;
+		height: 50px;
+	}
+	/* ページ本体 */
+	#inner_body{
+		width : 1200px;
+		min-width : 1200px;
+		border-radius:5px;
+		border : 1px solid #a6c9e2
+		position:absolute;
+		margin: 0 auto;
+		padding-left:3px;
+		padding-right:3px;
+		background-color: #ffffff
+	}
+
+/* 文字サイズ小 */
+	.komoji{font-size: 0.76em !important;}
+
+/* width(input table-column) */
+	.w20 {width:	20px;}
+	.w30 {width:	30px;}
+	.w40 {width:	40px;}
+	.w50 {width:	50px;}
+	.w60 {width:	60px;}
+	.w70 {width:	70px;}
+	.w80 {width:	80px;}
+	.w90 {width:	90px;}
+	.w100{width:	100px;}
+	.w110{width:	110px;}
+	.w120{width:	120px;}
+	.w130{width:	130px;}
+	.w140{width:	140px;}
+	.w150{width:	150px;}
+	.w160{width:	160px;}
+	.w170{width:	170px;}
+	.w180{width:	180px;}
+	.w190{width:	190px;}
+	.w200{width:	200px;}
+	.w210{width:	210px;}
+	.w220{width:	220px;}
+	.w230{width:	230px;}
+	.w240{width:	240px;}
+	.w250{width:	250px;}
+	.w260{width:	260px;}
+	.w270{width:	270px;}
+	.w280{width:	280px;}
+	.w290{width:	290px;}
+	.w300{width:	300px;}
+	.w350{width:	350px;}
+	.w360{width:	360px;}
+	.w400{width:	400px;}
+	.w450{width:	450px;}
+	.w480{width:	480px;}
+	.w600{width:	880px;}
+
+/* letter-spacing(table th) */
+	.ls03{letter-spacing: 0.3em;}
+	.ls04{letter-spacing: 0.4em;}
+	.ls05{letter-spacing: 0.5em;}
+	.ls06{letter-spacing: 0.6em;}
+	.ls07{letter-spacing: 0.7em;}
+	.ls08{letter-spacing: 0.8em;}
+	.ls09{letter-spacing: 0.9em;}
+	.ls1 {letter-spacing: 1em;}
+	.ls2 {letter-spacing: 2em;}
+	.ls3 {letter-spacing: 3em;}
+	.ls4 {letter-spacing: 4em;}
+	.ls6 {letter-spacing: 6em;}
+
+/* focus（color change） */
+	.focus { background: #ffff00!important; }

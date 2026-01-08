@@ -1,0 +1,66 @@
+.content{height:780px;}
+
+/* 表示情報はテーブルで配置（レイアウト枠はpureを使ったDIVで） */
+
+/* メニューボタンを省いた場合の高さ調整 */
+.content-wrapper{top:100px;}
+
+/* ログイン入力個所 */
+.menu-button	{height : 80px;font-weight:bold;font-size: 1.5rem;padding-right:10px;padding-left:10px;}
+
+
+/* メディアクエリ */
+@media screen and (max-width: 1279px){
+	.spacer{display:none;}
+}
+
+/* iPhone 5 縦 */
+@media (device-width: 320px) {
+	.header-title-pc{display:none;}
+}
+/* Galaxy S5 縦 */
+@media (device-width: 360px) {
+	.header-title-pc{display:none;}
+}
+/* iPhone 6 縦 */
+@media (device-width: 375px) {
+	.header-title-pc{display:none;}
+}
+/* iPhone 6plus 縦 */
+@media (device-width: 414px) {
+	.header-title-pc{display:none;}
+}
+/* Nexus 縦 */
+@media (device-width: 412px) {
+	.header-title-pc{display:none;}
+}
+/* iPhone 5 横 */
+@media (device-width: 568px) {
+
+}
+/* Galaxy 5S 横 */
+@media (device-width: 640px) {
+
+}
+/* iPhone 6 横 */
+@media (device-width: 667px) {
+
+}
+/* Nexus 5X 横 */
+@media (device-width: 732px) {
+
+}
+/* iPhone 6plus 横 */
+@media (device-width: 736px) {
+
+}
+/* iPad 縦 */
+@media (device-width: 768px) {
+	.content{height:880px;}
+	.menu-button	{height : 80px;font-weight:bold;font-size: 1rem;}
+
+}
+/* iPad 横 */
+@media (device-width: 1024px) {
+	.content{height:620px;}
+}

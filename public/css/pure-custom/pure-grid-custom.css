@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/* media query */
+
+/*Å@for iPhone4-5 portrait (èc) */
+@media only screen and (max-device-width:320px) and (orientation:portrait){
+
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : block;
+		width   : 100%;
+	}
+}
+
+/* iPhone6 portrait (èc) */
+@media screen and (min-width: 375px) and (orientation:portrait){
+
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : block;
+		width   : 100%;
+	}
+}
+
+/* iPhone6 Plus portrait (èc) */
+@media screen and (min-width: 414px) and (orientation:portrait){
+
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : block;
+		width   : 100%;
+	}
+}
+
+/* for iPhone Landscape (â°) Å¶2ï™äÑïsê¨óßÇÃå¿äEì_ */
+@media screen and (min-width:480px) {
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : block;
+		width   : 100%;
+
+	}
+}
+
+/* for iPhone6 Landscape (â°) */
+@media screen and (min-width:667px) {
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : table;
+		table-layout : fixed;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : table-cell;
+		width   : 50%;
+
+	}
+}
+
+/* for iPhone6 Plus Landscape (â°) */
+@media screen and (min-width:738px) {
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : table;
+		table-layout : fixed;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : table-cell;
+		width   : 50%;
+
+	}
+}
+
+/*Å@for iPad (èc)*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : table;
+		table-layout : fixed;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : table-cell;
+		width   : 50%;
+
+	}
+}
+
+/*Å@for iPad (â°)*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : table;
+		table-layout : fixed;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : table-cell;
+		width   : 50%;
+	}
+}
+
+/*Å@for PCÅ@*/
+@media screen and (min-width:1025px) {
+	.pure-g {
+		display : block;
+		width   : 100%;
+	}
+	.pure-u-1 {
+		display : block;
+		width   : 100%;
+	}
+	.pure-g-r {
+		display : table;
+		table-layout : fixed;
+		width   : 100%;
+	}
+	.pure-u-1-2 {
+		display : table-cell;
+		width   : 50%;
+		vertical-align : top;
+	}
+}
+
+

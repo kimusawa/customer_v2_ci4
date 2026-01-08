@@ -1,0 +1,72 @@
+/*
+.content-wrapper{top:100px;}
+*/
+.keisen{ border-bottom : 1px solid green; }
+.content{height:780px;}
+
+/* ç°âÒåüêj */
+#table01		{}
+#table01 .col01	{ width : 10rem; }
+#table01 .col02	{ width : 13rem; }
+#table01 .normal-tr{border-bottom : 1px solid #ccc;}
+
+/* ëOâÒåüêjìô */
+#table02		{}
+#table02 .col01 { width : 8rem; }
+#table02 .col02 { width : 15rem; }
+#table02 .normal-tr{border-bottom : 1px solid #ccc;}
+
+/* ÉÅÉfÉBÉAÉNÉGÉä */
+/* ÉÅÉfÉBÉAÉNÉGÉä */
+@media screen and (max-width: 499px) {
+	#spgsjob-kensin-konkai, #spgsjob-kensin-zenkai {margin: 13px;}
+	.border-waku{padding: 5px 15px 30px 15px!important;}
+	#table01 .col01{ width : 9rem; }
+	#table01 .col02{ width : 12rem; }
+	#table02 .col01{ width : 9rem; }
+	#table02 .col02{ width : 14rem; }
+}
+
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	.content{height:980px;}
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	.content{height:980px;}
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	.content{height:980px;}
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	.content{height:980px;}
+}
+/* Nexus èc */
+@media (device-width: 412px) {
+	.content{height:980px;}
+}
+/* iPhone 5 â° */
+@media (device-width: 568px) {
+}
+/* Galaxy 5S â° */
+@media (device-width: 640px) {
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+}
+/* Nexus 5X â° */
+@media (device-width: 732px) {
+}
+/* iPhone 6plus â° */
+@media (device-width: 736px) {
+}
+/* iPad èc */
+@media (device-width: 768px) {
+
+}
+/* iPad â° */
+@media (device-width: 1024px) {
+
+}

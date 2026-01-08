@@ -1,0 +1,308 @@
+/* �\�����̓e�[�u���Ŕz�u�i���C�A�E�g�g��pure���g����DIV�Łj */
+/*
+//**************************************************************************
+// Creation:　株式会社 イングコーポレーション
+//   SYSTEM:　ＷＥＢ照会
+//**************************************************************************
+//　Modeule           Spgsinfo-ryokin　css
+//**************************************************************************
+//  日付      担当者      変更理由（仕変コード）
+//--------------------------------------------------------------------------
+//2025.03.06  s.matsumoto Mnt-001  フォントサイズが1.4remで固定だったのを修正(spgsinfo-ryokin.phpも修正)
+//2025.03.06  tanaka      Mnt-002  ガス料金の計算方式の文字数拡大の為
+//2025.12.01  kimura      Mnt-003  CI4移行
+//--------------------------------------------------------------------------
+*/
+
+/*[Mnt-001]----------------------------------------------------------------------------------------- >> Edit Start 25/03/06 */
+.ryokin-font-size{
+	font-size: 1.4rem;
+}
+@media screen and (max-width: 560px){
+	.ryokin-font-size{
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 400px){
+	.ryokin-font-size{
+		font-size: 0.8rem;
+	}
+}
+/*[Mnt-001]----------------------------------------------------------------------------------------- >> Edit Start 25/03/06 */
+
+.content{min-height:800px;}
+
+#spgsinfo-kensin-meisai{margin-bottom:20px;}
+/* ���� */
+#table01		{margin-bottom:50px;}
+#table01 td		{ padding-left : 5px; padding-right : 5px;vertical-align:top;}
+#table01 .col01	{ width : 3rem; }
+/* //[Mnt-002]------------------------------------------------------------------------------------------>> Edit Start 25/03/06
+//#table01 .col02	{ width : 56rem; } */
+#table01 .col02	{ width : 60rem; }
+/* //[Mnt-002]<<------------------------------------------------------------------------------------------ Edit E n d 25/03/06 */
+/* �����\ */
+#table02		{ width:80%; font-size:1.5rem;}
+#table02 td		{ padding-left : 5px; padding-right : 5px; }
+#table02 thead	{ border-bottom : 2px solid #12609d; }
+#table02 .col01	{ width : 20%; }
+#table02 .col02	{ width : 15%; }
+#table02 .col03	{ width : 30%; }
+#table02 .col04	{ width : 30%; }
+
+/* �����\�i�����{�F���j */
+#table03		{ width:30rem;}
+#table03 td		{ padding :15px  5px; }
+#table03 .tr01	{ border-bottom : 1px dashed #777; border-top : 1px dashed #777; font-size:1.8rem; }
+#table03 .tr02	{ font-size:1.4rem; }
+#table03 .col01	{ width : 15rem; }
+#table03 .col02	{ width : 5rem; }
+#table03 .col03	{ width : 10rem; }
+/* �����\�i����]�ʁF���j */
+#table04		{ width:30rem; font-size:1.5rem;}
+#table04 td		{ padding-left : 5px; padding-right : 5px; padding-top: 5px; letter-spacing: 1px }
+#table04 thead	{ border-bottom : 2px solid #12609d; }
+#table04 .col01	{ width : 5rem; }
+#table04 .col02	{ width : 2rem; }
+#table04 .col03	{ width : 5rem; }
+#table04 .col04	{ width : 5rem; }
+#table04 .col05	{ width : 8rem; }
+
+/* ���P�����\�i�����{�F���j */
+#table03t			{ width:30rem;}
+#table03t td		{ padding :15px  5px; }
+#table03t .tr01		{ border-bottom : 1px dashed #777; border-top : 1px dashed #777; font-size:1.8rem; }
+#table03t .tr02		{ font-size:1.4rem; }
+#table03t .col01	{ width : 15rem; }
+#table03t .col02	{ width : 5rem; }
+#table03t .col03	{ width : 10rem; }
+/* ���P�����\�i����]�ʁF���j */
+#table04t			{ width:30rem; font-size:1.5rem;}
+#table04t td		{ padding-left : 5px; padding-right : 5px; }
+#table04t thead		{ border-bottom : 2px solid #12609d; }
+#table04t .col01	{ width : 5rem; }
+#table04t .col02	{ width : 2rem; }
+#table04t .col03	{ width : 5rem; }
+#table04t .col04	{ width : 5rem; }
+#table04t .col05	{ width : 8rem; }
+/* ������ */
+
+/* ������ */
+#table05		{ width:30rem;margin-top:50px;}
+#table05 td		{ padding :15px  5px; font-size:1.22rem;letter-spacing:0.15rem; }
+
+
+/* spacer�͔͈͂Œׂ� */
+@media screen and (max-width: 1279px){
+	.spacer{display:none;}
+	#spgsinfo-kensin-meisai{margin-bottom:40px;}
+
+}
+
+@media screen and (max-width: 400px){
+	/* �����\�i�����{�F���j */
+	#table03		{ width:15rem;}
+	#table03 td		{ padding :15px  5px; }
+	#table03 .tr01	{ border-bottom : 1px dashed #777; border-top : 1px dashed #777; font-size:0.9rem; }
+	#table03 .tr02	{ font-size:0.8rem; }
+	#table03 .col01	{ width : 6rem; }
+	#table03 .col02	{ width : 3rem; }
+	#table03 .col03	{ width : 6rem; }
+	/* �����\�i����]�ʁF���j */
+	#table04		{ width:15rem; font-size:0.8rem;}
+	#table04 td		{ padding-left : 5px; padding-right : 5px; }
+	#table04 thead	{ border-bottom : 2px solid #12609d; }
+	#table04 .col01	{ width : 3rem; }
+	#table04 .col02	{ width : 1rem; }
+	#table04 .col03	{ width : 3rem; }
+	#table04 .col04	{ width : 2rem; }
+	#table04 .col05	{ width : 6rem; }
+	/* ���P�����\�i�����{�F���j */
+	#table03t			{ width:15rem;}
+	#table03t td		{ padding :15px  5px; }
+	#table03t .tr01		{ border-bottom : 1px dashed #777; border-top : 1px dashed #777; font-size:0.9rem; }
+	#table03t .tr02		{ font-size:0.8rem; }
+	#table03t .col01	{ width : 6rem; }
+	#table03t .col02	{ width : 3rem; }
+	#table03t .col03	{ width : 6rem; }
+	/* ���P�����\�i����]�ʁF���j */
+	#table04t			{ width:15rem; font-size:0.8rem;}
+	#table04t td		{ padding-left : 5px; padding-right : 5px; }
+	#table04t thead		{ border-bottom : 2px solid #12609d; }
+	#table04t .col01	{ width : 3rem; }
+	#table04t .col02	{ width : 1rem; }
+	#table04t .col03	{ width : 3rem; }
+	#table04t .col04	{ width : 2rem; }
+	#table04t .col05	{ width : 6rem; }
+	/* ������ */
+	#table05		{ width:15rem;margin-top:20px;}
+	#table05 td		{ padding :15px  5px; font-size:0.6rem;letter-spacing:0.05rem; }
+}
+
+@media screen and (min-width: 401px) and (max-width: 560px){
+	/* �����\�i�����{�F���j */
+	#table03		{ width:20rem;}
+	#table03 td		{ padding :15px  5px; }
+	#table03 .tr01	{ border-bottom : 1px dashed #777; border-top : 1px dashed #777; font-size:1.1rem; }
+	#table03 .tr02	{ font-size:1.0rem; }
+	#table03 .col01	{ width : 6rem; }
+	#table03 .col02	{ width : 3rem; }
+	#table03 .col03	{ width : 6rem; }
+	/* �����\�i����]�ʁF���j */
+	#table04		{ width:20rem; font-size:1.0rem;}
+	#table04 td		{ padding-left : 5px; padding-right : 5px; }
+	#table04 thead	{ border-bottom : 2px solid #12609d; }
+	#table04 .col01	{ width : 3rem; }
+	#table04 .col02	{ width : 1rem; }
+	#table04 .col03	{ width : 3rem; }
+	#table04 .col04	{ width : 2rem; }
+	#table04 .col05	{ width : 6rem; }
+	/* ���P�����\�i�����{�F���j */
+	#table03t			{ width:20rem;}
+	#table03t td		{ padding :15px  5px; }
+	#table03t .tr01		{ border-bottom : 1px dashed #777; border-top : 1px dashed #777; font-size:1.1rem; }
+	#table03t .tr02		{ font-size:1.0rem; }
+	#table03t .col01	{ width : 6rem; }
+	#table03t .col02	{ width : 3rem; }
+	#table03t .col03	{ width : 6rem; }
+	/* ���P�����\�i����]�ʁF���j */
+	#table04t			{ width:20rem; font-size:1.0rem;}
+	#table04t td		{ padding-left : 5px; padding-right : 5px; }
+	#table04t thead		{ border-bottom : 2px solid #12609d; }
+	#table04t .col01	{ width : 3rem; }
+	#table04t .col02	{ width : 1rem; }
+	#table04t .col03	{ width : 3rem; }
+	#table04t .col04	{ width : 2rem; }
+	#table04t .col05	{ width : 6rem; }
+
+	/* ������ */
+	#table05		{ width:20rem;margin-top:20px;}
+	#table05 td		{ padding :15px  5px; font-size:0.85rem;letter-spacing:0.05rem; }
+}
+
+/* iPhone 5 �c */
+@media (device-width: 320px) {
+	#table01		{ font-size:0.65rem;	width:18rem; }
+	#table01 .col01	{ width : 2rem; }
+	#table01 .col02	{ width : 18rem; }
+
+	#table02		{ width:100%;			font-size:0.8rem; }
+	#table02 thead	{ font-size:1.0rem; }
+
+
+}
+/* Galaxy S5 �c */
+@media (device-width: 360px) {
+	#table01{font-size:0.70rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+
+}
+/* iPhone 6 �c */
+@media (device-width: 375px) {
+	#table01{font-size:0.75rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+
+}
+/* Nexus6P �c */
+@media (device-width: 412px) {
+	#table01{font-size:0.9rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+
+}
+/* iPhone 6plus �c */
+@media (device-width: 414px) {
+	#table01{font-size:0.9rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+
+}
+/* iPhone 5 �� */
+@media (device-width: 568px) {
+	#table01{font-size:0.55rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+	.mobile-br{display:inline;}
+	.mobile-br2 {display:none;}
+}
+/* Galaxy S5 �� */
+	@media (device-width: 640px) {
+	#table01{font-size:0.55rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+	.mobile-br{display:inline;}
+	.mobile-br2 {display:none;}
+
+}
+/* iPhone 6 �� */
+@media (device-width: 667px) {
+	#table01{font-size:0.55rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+	.mobile-br{display:none;}
+	.mobile-br2 {display:none;}
+}
+/* Nexus 5X �� */
+@media (device-width: 732px) {
+	#table01{font-size:0.60rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+	.mobile-br{display:none;}
+	.mobile-br2 {display:none;}
+}
+/* iPhone 6plus �� */
+@media (device-width: 736px) {
+	#table01{font-size:0.65rem;}
+	#table02{width:100%;font-size:0.8rem;}
+	#table02 thead{font-size:1.0rem;}
+	.mobile-br{display:none;}
+	.mobile-br2 {display:none;}
+}
+/* iPad �c */
+@media (device-width: 768px) {
+	#table01{font-size:0.85rem;}
+}
+/* iPad �� */
+@media (device-width: 1024px) {
+
+}
+
+/* View　spgsinfo_ryokin.php　からCI4移植時に移動 */
+
+#table14 th{font-size:16px;}
+#table14 tr {border-bottom : 1px solid #ddd;}
+/*
+#table14 .col01{width: 120px;}
+#table14 .col02{width: 20px;}
+#table14 .col03{width: 70px;}
+#table14 .col04{width: 200px;}
+#table14 .col05{width: 200px;}
+*/
+#table14 .col01{width: 80px;}
+#table14 .col02{width: 120px;}
+#table14 .col03{width: 20px;}
+#table14 .col04{width: 70px;}
+#table14 .col05{width: 200px;}
+#table14 .col06{width: 200px;}
+
+@media screen and (max-width: 520px) {
+	#table14 th{font-size:11px;	}
+	#table14 td{font-size:11px;	}
+	#table12 td{font-size:11px;	}
+/*
+	#table14 .col01{width: 80px;}
+	#table14 .col02{width: 20px;}
+	#table14 .col03{width: 80px;}
+	#table14 .col04{width: 100px;}
+	#table14 .col05{width: 100px;}
+*/
+	#table14 .col01{width: 80px;}
+	#table14 .col02{width: 60px;}
+	#table14 .col03{width: 8px;}
+	#table14 .col04{width: 60px;}
+	#table14 .col05{width: 100px;}
+	#table14 .col06{width: 110px;}
+
+}

@@ -1,0 +1,174 @@
+.content{height:950px;}
+
+
+/* éxï•èÓïÒ */
+#table01{}
+#table01 .col01{ width : 10rem; }
+#table01 .col02{ width : 13rem; }
+#table01 .normal-tr{border-bottom : 1px solid #ccc;}
+#table01 .kei{
+	color : red;
+	border-top : 1px solid green;
+}
+
+
+/* å˚ç¿èÓïÒ */
+#table02{}
+#table02 .col01{ width : 10rem; }
+#table02 .col02{ width : 13rem; }
+#table02 tr{border-bottom : 1px solid #ccc;}
+
+
+/* ñæç◊ÉäÉXÉg */
+#table03{width:100%;}
+#table03 .col01{	width : 6rem;}
+#table03 .col02{	width : 6rem;}
+#table03 .col03{	width : 26rem;}
+#table03 .col04{	width : 26rem;}
+#table03 .col05{	width : 4rem;}
+#table03 .col06{	width : 4rem;}
+#table03 .col07{	width : 7rem;}
+
+/* ÉÅÉfÉBÉAÉNÉGÉä */
+@media screen and (max-width: 499px) {
+	#spgsjob-urikake-kouza, #spgsjob-urikake-tougetu {margin: 13px;}
+	.border-waku{padding: 5px 15px 30px 15px!important;}
+	#table01 .col01{ width : 9rem; }
+	#table01 .col02{ width : 12rem; }
+	#table02 .col01{ width : 9rem; }
+	#table02 .col02{ width : 12rem; }
+}
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	.content{height:980px;}
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	.content{height:980px;}
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	.content{height:980px;}
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	.content{height:980px;}
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* Nexus èc */
+@media (device-width: 412px) {
+	.content{height:980px;}
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* iPhone 5 â° */
+@media (device-width: 568px) {
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* Galaxy 5S â° */
+@media (device-width: 640px) {
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* Nexus 5X â° */
+@media (device-width: 732px) {
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* iPhone 6plus â° */
+@media (device-width: 736px) {
+	#table03{width:48rem!important;}
+	#table03 .col01{	width : 4rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 12rem;}
+	#table03 .col04{	width : 12rem;}
+	#table03 .col05{	width : 4rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}
+/* iPad èc */
+@media (device-width: 768px) {
+	.content{height:960px;}
+	#table03 th{font-size: 0.7rem;}
+	#table03	{font-size:0.8rem;}
+	#table03 .col01{	width : 6rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 10rem;}
+	#table03 .col04{	width : 10rem;}
+	#table03 .col05{	width : 5rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 5rem;}
+}
+/* iPad â° */
+@media (device-width: 1024px) {
+	.content{height:920px;}
+	#table03 th{font-size: 0.8rem;}
+	#table03	{font-size:0.8rem;}
+	#table03 .col01{	width : 6rem;}
+	#table03 .col02{	width : 6rem;}
+	#table03 .col03{	width : 18rem;}
+	#table03 .col04{	width : 14rem;}
+	#table03 .col05{	width : 5rem;}
+	#table03 .col06{	width : 4rem;}
+	#table03 .col07{	width : 4rem;}
+}

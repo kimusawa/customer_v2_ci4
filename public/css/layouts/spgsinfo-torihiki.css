@@ -1,0 +1,95 @@
+/* ï\é¶èÓïÒÇÕÉeÅ[ÉuÉãÇ≈îzíuÅiÉåÉCÉAÉEÉgògÇÕpureÇégÇ¡ÇΩDIVÇ≈Åj */
+.content{height:800px;}
+
+/* åüêjèÓïÒ */
+#spgsinfo-kensin-kensin		{ text-align : left; }
+#table01			{width:1000px; background-color: #fff; margin: 0 auto;}
+#table01 td		{ padding-left : 5px; padding-right : 5px; }
+#table01 th		{ padding-left : 5px; padding-right : 5px; }
+#table01 .col01	{ width : 8rem; }
+#table01 .col02	{ width : 25rem; }
+#table01 .col03	{ width : 25rem; }
+#table01 .col04	{ width : 6rem; }
+#table01 .col05	{ width : 6rem; }
+#table01 .col06	{ width : 6rem; }
+
+
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	#table01		{width:50rem;}
+	#table01 .col01	{ width : 6rem; }
+	#table01 .col02	{ width : 18rem; }
+	#table01 .col03	{ width : 18rem; }
+	#table01 .col04	{ width : 5rem; }
+	#table01 .col05	{ width : 6rem; }
+	#table01 .col05	{ width : 6rem; }
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	#table01		{width:50rem;}
+	#table01 .col01	{ width : 6rem; }
+	#table01 .col02	{ width : 18rem; }
+	#table01 .col03	{ width : 18rem; }
+	#table01 .col04	{ width : 5rem; }
+	#table01 .col05	{ width : 6rem; }
+	#table01 .col05	{ width : 6rem; }
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	#table01		{width:50rem;}
+	#table01 .col01	{ width : 6rem; }
+	#table01 .col02	{ width : 18rem; }
+	#table01 .col03	{ width : 18rem; }
+	#table01 .col04	{ width : 5rem; }
+	#table01 .col05	{ width : 6rem; }
+	#table01 .col05	{ width : 6rem; }
+}
+/* Nexus èc */
+@media (device-width: 412px) {
+	#table01		{width:50rem;}
+	#table01 .col01	{ width : 6rem; }
+	#table01 .col02	{ width : 18rem; }
+	#table01 .col03	{ width : 18rem; }
+	#table01 .col04	{ width : 5rem; }
+	#table01 .col05	{ width : 6rem; }
+	#table01 .col05	{ width : 6rem; }
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	#table01		{width:50rem;}
+	#table01 .col01	{ width : 6rem; }
+	#table01 .col02	{ width : 18rem; }
+	#table01 .col03	{ width : 18rem; }
+	#table01 .col04	{ width : 5rem; }
+	#table01 .col05	{ width : 6rem; }
+	#table01 .col05	{ width : 6rem; }
+}
+/* Galaxy S5 â° */
+@media (device-width: 640px) {
+
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+
+}
+/* iPhone 6 â° */
+@media (device-width: 736px) {
+
+}
+/* iPad èc */
+@media (device-width: 768px) {
+
+}
+/* iPad â° */
+@media (device-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1007px)
+.content-wrapper {
+    top: 105px;
+}
+.content {
+    min-height: calc(100vh - 131px);
+}
+}

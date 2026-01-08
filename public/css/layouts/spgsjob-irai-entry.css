@@ -1,0 +1,231 @@
+.keisen{ border-bottom : 1px solid green; }
+/*  */
+#table01		{ width : 100%;}
+#table01 .col01	{ width : 6rem;}
+#table01 .col02 { width : 6rem;}
+#table01 .col03 { width : 6rem;}
+#table01 .col04 { width : 10rem;}
+#table01 .col05 { width : 15rem;}
+#table01 .col06 { width : 15rem;}
+#table01 .strong{font-weight:bold;}
+
+
+/*  */
+#table02		{float:left; width:50%;}
+#table02 .col01	{ width : 10rem;}
+#table02 .col02 { width : 25rem;}
+/*  */
+#table03		{float:right; width:50%;}
+#table03 .col01	{ width : 10rem;}
+#table03 .col02 { width : 25rem;}
+/*  */
+#table04		{}
+#table04 .col01	{ width : 8rem;}
+#table04 .col02 { width : 30rem;}
+/*  */
+#table05		{width : 100%;}
+#table05 .col01	{ width : 8rem;}
+#table05 .col02 { width : 40rem;}
+input[type=text] { width : 100%;}
+
+.iraibutton01 { width : 100%; margin-bottom:5px;}
+.iraibutton02 { width : 100%; margin-bottom:5px;}
+.iraibutton03 { width : 100%;}
+/* ÉÅÉfÉBÉAÉNÉGÉä */
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:100%;}
+	#table02 td {display:block;}
+	#table03 {width:100%;}
+	#table03 td {display:block;}
+	#table04 {width:100%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:100%;}
+	#table02 td {display:block;}
+	#table03 {width:100%;}
+	#table03 td {display:block;}
+	#table04 {width:100%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:100%;}
+	#table02 td {display:block;}
+	#table03 {width:100%;}
+	#table03 td {display:block;}
+	#table04 {width:100%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:100%;}
+	#table02 td {display:block;}
+	#table03 {width:100%;}
+	#table03 td {display:block;}
+	#table04 {width:100%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+/* Nexus èc */
+@media (device-width: 412px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:100%;}
+	#table02 td {display:block;}
+	#table03 {width:100%;}
+	#table03 td {display:block;}
+	#table04 {width:100%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+
+}
+/* iPhone 5 â° */
+@media (device-width: 568px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:50%;}
+	#table02 td {display:block;}
+	#table03 {width:50%;}
+	#table03 td {display:block;}
+	#table04 {width:50%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+
+}
+/* Galaxy 5S â° */
+@media (device-width: 640px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:50%;}
+	#table02 td {display:block;}
+	#table03 {width:50%;}
+	#table03 td {display:block;}
+	#table04 {width:50%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:50%;}
+	#table02 td {display:block;}
+	#table03 {width:50%;}
+	#table03 td {display:block;}
+	#table04 {width:50%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+
+}
+/* Nexus 5X â° */
+@media (device-width: 732px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:50%;}
+	#table02 td {display:block;}
+	#table03 {width:50%;}
+	#table03 td {display:block;}
+	#table04 {width:50%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+
+}
+/* iPhone 6plus â° */
+@media (device-width: 736px) {
+	#table01		{ width : 50rem;}
+	#table01 .col01	{ width : 6rem;}
+	#table01 .col02 { width : 6rem;}
+	#table01 .col03 { width : 6rem;}
+	#table01 .col04 { width : 10rem;}
+	#table01 .col05 { width : 15rem;}
+	#table01 .col06 { width : 15rem;}
+
+	#table02 {width:50%;}
+	#table02 td {display:block;}
+	#table03 {width:50%;}
+	#table03 td {display:block;}
+	#table04 {width:50%;}
+	#table04 td {display:block;}
+	#table05 td {display:block;}
+}
+/* iPad èc */
+@media (device-width: 768px) {
+
+}
+/* iPad â° */
+@media (device-width: 1024px) and (orientation:landscape) {
+
+}
+/* iPad Pro èc */
+@media (device-width: 1024px) and (orientation:portrait){
+
+}

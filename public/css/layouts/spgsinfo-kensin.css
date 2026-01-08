@@ -1,0 +1,103 @@
+/* ?\??????e?[?u????z?u?i???C?A?E?g?g??pure???g????DIV??j */
+
+/* ???j??? */
+#spgsinfo-kensin-kensin		{ text-align : left; }
+#table01			{ width:30rem; }
+#table01 td		{ padding-left : 5px; padding-right : 5px; }
+#table01 .col01	{ width : 6rem; }
+#table01 .col02	{ width : 9rem; }
+#table01 .col03	{ width : 6rem; }
+#table01 .col04	{ width : 8rem; }
+#table01 .zen				{ font-size : 0.8rem; }
+#table01 .mobile-siyoryo td	{ display : none; }
+
+/* ?K?X???? */
+#spgsinfo-kensin-ryokin .border-waku{ height : 330px; }
+#spgsinfo-kensin-meisai .border-waku{ height : 330px; }
+
+#table02			{ width : 100%; }
+#table02 .col01	{ width : 40%; }
+#table02 .col02	{ width : 60%; }
+#table02 .kei		{ color : red; border-top : 1px solid green; }
+
+/* ??????X?g */
+#table03			{ width:100%;}
+#table03 thead tr	{ border-bottom : 1px solid #12609d;}
+#table03 .kei		{ border-top : 1px solid #12609d;}
+#table03 .col01	{ width : 6rem; }
+#table03 .col02	{ width : 18rem; }
+#table03 .col03	{ width : 5rem; }
+#table03 .col04	{ width : 3rem; }
+#table03 .col05	{ width : 5rem; }
+
+/* ???v */
+#table04			{ width : 100%; font-size : 2.5rem; }
+#table04 .col01	{ width : 70%; }
+#table04 .col02	{ width : 30%; }
+
+/* ?x?????@ */
+#table05			{  }
+#table05 .col01	{ width : 9rem; }
+#table05 .col02	{ width : 9rem; }
+#table05 .col03	{ width : 9rem; }
+#table05 .col04	{ width : 9rem; }
+
+/* ???[?^?[??????? */
+#table06			{ width:30rem; }
+#table06 td		{ padding-left : 5px; padding-right : 5px; }
+
+#table02 .sashizan td, #table03 .kei td{ font-size : 0.95rem!important; }
+
+@media (max-width: 500px) {
+	#table01		{ width:18rem;font-size:1.0rem;}
+	#table01 td		{ padding-left:0px;padding-right:0px; border-bottom:1px solid #ccc;}
+	#table01 td 	{ display : inline-block;width:50%;}
+	#table01 .mobile-siyoryo td { display : inline-block;width:90vw; }
+	#table01 .pc-siyoryo{ display : none; }
+	#table03 td		{ font-size : 0.5rem; }
+	#table04		{ font-size: 1.2rem;}
+	#table05 td		{ font-size : 0.70rem;}
+	#table03		{ width :22rem;}
+	#table03 td, #table03 th{ padding-right :5px;}
+	#table03 .col01	{ width : 3rem; }
+	#table03 .col02	{ width : 4rem; }
+	#table03 .col03	{ width : 3rem; }
+	#table03 .col04	{ width : 2rem; }
+	#table03 .col05	{ width : 4rem; }
+	#table06	{ width:95%;font-size:1.0rem;}
+	#table03 .col01	{ width : 8rem; }
+	#table03 .col02	{ width : 8rem; }
+	#table03 .col03	{ width : 3rem; }
+	#table03 .col04	{ width : 2rem; }
+	#table06 td	{ padding-left:0px;padding-right:0px; border-bottom:1px solid #ccc;}
+	#table06 td 	{ display : inline-block;width:50%;}
+	#spgsinfo-kensin-ryokin .border-waku{ height : auto; }
+	#spgsinfo-kensin-meisai .border-waku{ height : auto; }
+}
+@media (min-width: 501px) and  (max-width: 799px) {
+	#table03 td{font-size : 0.6rem;	}
+	#table04{font-size: 1.5rem;}
+	#spgsinfo-kensin-ryokin .border-waku{ height : auto; }
+	#spgsinfo-kensin-meisai .border-waku{ height : auto; }
+	#table06 .col01	{ width : 6rem; }
+	#table06 .col02	{ width : 9rem; }
+	#table06 .col03	{ width : 6rem; }
+	#table06 .col04	{ width : 8rem; }
+}
+@media (min-width: 800px) {
+	#table06 .col01	{ width : 6rem; }
+	#table06 .col02	{ width : 9rem; }
+	#table06 .col03	{ width : 6rem; }
+	#table06 .col04	{ width : 8rem; }
+}
+
+/* iPad ?? */
+@media (device-width: 1024px) {
+	#table02 td{
+		font-size : 0.9rem;
+	}
+	#table03 td{
+		font-size : 0.68rem;
+	}
+	#table04{font-size: 1.5rem;}
+}

@@ -1,0 +1,53 @@
+/*************************************************
+* ---- Input Controls ----
+*/
+input[type=text],
+textarea {
+	border: 1px solid #888888;
+	border-radius: 3px;
+	color: #000000;
+}
+input[type=submit] {
+	background-color: #ffffff;
+}
+/*
+select {
+	border: 1px solid #bbbbbb;
+}
+*/
+input[type=text]:focus,
+textarea:focus {
+	outline-color: #72b2ff;
+}
+input[type=submit]:focus {
+	background-color: #cceeff;
+}
+/*
+select:focus {
+	outline-color: #72b2ff;
+}
+*/
+/*
+input:not([type=button]):disabled,
+select:disabled,
+textarea:disabled,
+input:not([type=button])[readonly],
+select[readonly],
+textarea[readonly] {
+  background-color: #f1f1f1;
+  color: #777;
+}
+*/
+/* IE9-11 specific classes */
+/* needs doblue :: */
+/*
+input::-ms-clear {
+  display: none;
+}
+input:-ms-input-placeholder {
+  color: #aaa !important;
+}
+select {
+  padding: 2px;
+}
+*/

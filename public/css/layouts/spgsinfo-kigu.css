@@ -1,0 +1,150 @@
+/* ï\é¶èÓïÒÇÕÉeÅ[ÉuÉãÇ≈îzíuÅiÉåÉCÉAÉEÉgògÇÕpureÇégÇ¡ÇΩDIVÇ≈Åj */
+.content{height:800px;}
+
+/* äÌãÔèÓïÒ */
+#spgsinfo-kensin-kensin		{ text-align : left; }
+#table01			{width:width:1000px; margin: 0 auto;}
+#table01 td		{ padding-left : 5px; padding-right : 5px; }
+#table01 th		{ padding-left : 5px; padding-right : 5px; }
+#table01 .col01	{ width : 16rem; }
+#table01 .col02	{ width : 25rem; }
+#table01 .col03	{ width : 3rem; }
+#table01 .col04	{ width : 8rem; }
+#table01 .col05	{ width : 16rem; }
+
+
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	.content{height:478px;}
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	.content{height:550px;}
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	.content{height:578px;}
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+}
+/* Nexus 6P èc */
+@media (device-width: 412px) {
+	.content{height:638px;}
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	.content{height:668px;}
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+}
+/* iPhone 5 â° */
+@media (device-width: 568px) {
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+	.header input{display:none;}
+}
+/* Galaxy S5 â° */
+@media (device-width: 640px) {
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:40rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+
+}
+/* Nexus â° */
+@media (device-width: 732px) {
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:44rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+
+}
+/* iPhone 6plus â° */
+@media (device-width: 736px) {
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:44rem;}
+	#table01 .col01	{ width : 12rem; }
+	#table01 .col02	{ width : 12rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+
+}
+/* iPad èc */
+@media (device-width: 768px) {
+	#spgsinfo-kigu-list{overflow-y:scroll;}
+	#table01{width:48rem;}
+	#table01 .col01	{ width : 15rem; }
+	#table01 .col02	{ width : 15rem; }
+	#table01 .col03	{ width : 3rem; }
+	#table01 .col04	{ width : 7rem; }
+	#table01 .col05	{ width : 15rem; }
+
+}
+/* iPad â° */
+@media (device-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1007px)
+.content-wrapper {
+    top: 105px;
+}
+.content {
+    min-height: calc(100vh - 60px);
+}
+}
+

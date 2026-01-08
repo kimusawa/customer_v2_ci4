@@ -1,0 +1,28 @@
+Field	Type	Null	Key	Default	Extra
+misecd	smallint(6)	NO	PRI	0	
+usercd	varchar(20)	NO	PRI	NULL	
+dspusercd	varchar(20)	NO		NULL	
+name	varchar(40)	YES		NULL	
+id	varchar(20)	YES		NULL	
+pwd	varchar(20)	YES		NULL	
+mail	varchar(50)	YES		NULL	
+ryokinno	smallint(6)	YES		0	
+siyoryo	varchar(5)	YES		NULL	
+kihon	varchar(6)	YES		NULL	
+ryokin	varchar(7)	YES		NULL	
+zeikbn	smallint(6)	NO		0	
+msgno	smallint(6)	NO		0	
+tel	varchar(20)	NO			
+nyukyoymd	int(11)	NO		0	
+status	smallint(6)	NO		0	
+entryymd	int(11)	NO		0	
+entrytime	int(11)	NO		0	
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment
+spgsuser	0	PRIMARY	1	misecd	A	3	NULL	NULL		BTREE		
+spgsuser	0	PRIMARY	2	usercd	A	3	NULL	NULL		BTREE		
+spgsuser	1	idx_misecd_usercd	1	misecd	A	3	NULL	NULL		BTREE		
+spgsuser	1	idx_misecd_usercd	2	usercd	A	3	NULL	NULL		BTREE		
+spgsuser	1	idx_misecd_name	1	misecd	A	3	NULL	NULL		BTREE		
+spgsuser	1	idx_misecd_name	2	name	A	3	NULL	NULL	YES	BTREE		
+COUNT(*)
+3

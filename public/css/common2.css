@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+/* ユーザーリスト版 基本CSS */
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html, body { height: 100%; }
+	body {
+		color: aaa;
+		backgorund-color: #fff;
+		font-size: 0.87em;
+		font-family:
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		"メイリオ", Meiryo, Osaka,
+		"ＭＳ Ｐゴシック",
+		"MS PGothic",
+		sans-serif;
+	}
+	table {
+		line-height:1.4em;
+		border-collapse:collapse;
+	}
+	hr{ height:1px; }
+
+	#header h1 { line-height: 80px; }
+	#header {
+		background-color: #1f9fd9;
+		height: 60px;
+		text-align:left;
+		color:#ffffff;
+	}
+	#head-l {
+		float: left;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+	#head-r { float: right; }
+	#head-tb {
+		margin:15px 0 0 0;
+		padding:0;
+	}
+
+	#container {
+		width: 100%;
+		background: #ffffff;
+		position: relative;
+		height: 100%;
+		min-height: 100%;
+	}
+	body > #container { height: auto; }
+	#contents {
+		width: 100%;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	#footer {
+		width: 100%;
+		background: #1f9fd9;
+		bottom: 0;
+		height: 50px;
+	}
+	#footer p {
+		padding: 0;
+		line-height: 50px;
+	}
+
+	#kensaku-tb td{
+		line-height: 1.8em;
+		border-collapse: collapse;
+		background-color: #def;
+		padding-top:2px;
+		padding-bottom:2px;
+		text-align:left;
+	}
+	#list-tb td{
+		border-top: 1px solid #ddd;
+	}
+	.p-index {
+		letter-spacing: 0.3em;
+		font-weight: bold;
+	}
+	.p-index a{ text-decoration: none; }
+
+	input.imeactive { ime-mode: active; }
+	input.imeinactive{ ime-mode: inactive; }
+	input.imedisabled{ ime-mode: disabled; }
+	.input-middle {
+		height:24px;
+		line-height:24px;
+	}
+	.clear { clear:both; }
+
+	#menu {
+		width: 100px;
+		height: 24px;
+		font-size: 10pt;
+		border: #1f9fd9 solid 1px;
+	}
+	#logout {
+		width: 100px;
+		height: 24px;
+		font-size: 10pt;
+		border: #1f9fd9 solid 1px;
+	}
+	/* focus（color change） */
+	.focus { background: #ffff00; }

@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* media query */
+
+/*Å@for iPhone4-5 portrait (èc) */
+@media only screen and (max-device-width:320px) and (orientation:portrait){
+
+	.dsp_lv01 { display : block; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : none; }
+}
+
+/* iPhone6 portrait (èc) */
+@media screen and (min-width: 375px) and (orientation:portrait){
+
+	.dsp_lv01 { display : block; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : none; }
+}
+
+/* iPhone6 Plus portrait (èc) */
+@media screen and (min-width: 414px) and (orientation:portrait){
+
+	.dsp_lv01 { display : block; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : none; }
+}
+
+/* for iPhone Landscape (â°) Å¶2ï™äÑïsê¨óßÇÃå¿äEì_ */
+@media screen and (min-width:480px) {
+
+	.dsp_lv01 { display : block; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : none; }
+}
+
+/* for iPhone6 Landscape (â°) */
+@media screen and (min-width:667px) {
+
+	.dsp_lv01 { display : block; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : none; }
+}
+
+/* for iPhone6 Plus Landscape (â°) */
+@media screen and (min-width:738px) {
+
+	.dsp_lv01 { display : block; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : none; }
+}
+
+/*Å@for iPad (èc)*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+
+	.dsp_lv01 { display : none; }
+	.dsp_lv02 { display : block; }
+	.dsp_lv03 { display : none; }
+}
+
+/*Å@for iPad (â°)*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+
+	.dsp_lv01 { display : none; }
+	.dsp_lv02 { display : block; }
+	.dsp_lv03 { display : none; }
+}
+
+/*Å@for PCÅ@*/
+@media screen and (min-width:1025px) {
+
+	.dsp_lv01 { display : none; }
+	.dsp_lv02 { display : none; }
+	.dsp_lv03 { display : block; }
+}
+
+

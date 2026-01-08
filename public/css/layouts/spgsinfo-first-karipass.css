@@ -1,0 +1,92 @@
+/* ï\é¶èÓïÒÇÕÉeÅ[ÉuÉãÇ≈îzíuÅiÉåÉCÉAÉEÉgògÇÕpureÇégÇ¡ÇΩDIVÇ≈Åj */
+.content{height:800px;}
+
+/*  */
+#table01			{width:100%;}
+#table01 td		{ padding-left : 5px; padding-right : 5px; }
+#table01 th		{ padding-left : 5px; padding-right : 5px; }
+#table01 .col01	{ width : 16rem; }
+#table01 .col02	{ width : 25rem; }
+#table01 input	{width:100%;}
+.error-disp		{color:red;}
+
+/* iPhone 5 èc */
+@media (device-width: 320px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:50px;}
+	.logout-button{display:inline-block;}
+	#table01{font-size:0.7rem;}
+	#table01 td { display: block; }
+
+}
+/* Galaxy S5 èc */
+@media (device-width: 360px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:50px;}
+	.logout-button{display:inline-block;}
+	#table01 td { display: block; }
+}
+/* iPhone 6 èc */
+@media (device-width: 375px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:70px;}
+	.logout-button{display:block;}
+	#table01 td { display: block; }
+}
+/* Nexus6P èc */
+@media (device-width: 412px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:70px;}
+	.logout-button{display:block;}
+	#table01 td { display: block; }
+}
+/* iPhone 6plus èc */
+@media (device-width: 414px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:70px;}
+	.logout-button{display:block;}
+	#table01 td { display: block; }
+}
+/* iPhone 5 â° */
+@media (device-width: 568px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:70px;}
+	.content{height:500px;}
+	.header-button{font-size:0.5rem;padding:2px 5px;}
+	.header input{display:none;}
+}
+/* Galaxy S5 â° */
+@media (device-width: 640px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:50px;}
+	.content{height:500px;}
+	.header-button{font-size:0.5rem;padding:2px 5px;}
+}
+/* iPhone 6 â° */
+@media (device-width: 667px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:50px;}
+	.content{height:500px;}
+	.header-button{font-size:0.5rem;padding:2px 5px;}
+}
+/* Nexus 5X â° */
+@media (device-width: 732px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:50px;}
+	.content{height:500px;}
+}
+/* iPhone 6plus â° */
+@media (device-width: 736px) {
+	.spacer{display:none;}
+	.topbutton{width:100%!important;height:50px;}
+	.content{height:500px;}
+}
+/* iPad èc */
+@media (device-width: 768px) {
+	.topbutton{width:100%!important;}
+}
+/* iPad â° */
+@media (device-width: 1024px) {
+	.topbutton{width:100%!important;}
+
+}

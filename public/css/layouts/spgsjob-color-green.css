@@ -1,0 +1,55 @@
+/* 基本cssの色指定箇所のみを抜粋 */
+
+
+/* ベース */
+body {
+/*	 color: #7f8c8d; */
+	 color: #4f5c5d;
+
+}
+
+h1, h2, h3, h4, h5, h6, label { color: #34495e; }
+
+.header{ color:white; }
+
+.l-box-lrg { border-bottom: 1px solid rgba(0,0,0,0.1); }
+
+.pure-form input[type] { border: 2px solid #ddd;}
+.pure-button { background-color: #6d6; color: white; }
+.pure-button:hover { background-color: #8f8; color: white; }
+.thispage { background-color: #66d; color: white; }
+.thispage:hover { background-color: #88f; color: white; }
+
+a.pure-button-primary { background: white; color: #1f8dd6; }
+
+.home-menu { box-shadow: 0 1px 1px rgba(0,0,0, 0.10); }
+.home-menu.pure-menu-open { background: #4a2; }
+
+.home-menu .pure-menu-heading { color: white; }
+.home-menu .pure-menu-selected a { color: white; }
+.home-menu a { color: #6FBEF3; }
+.home-menu li a:hover, .home-menu li a:focus { color: #AECFE5; }
+
+.splash-container { background: #1f8dd6; }
+.splash-head { color: white; border: 3px solid white; }
+.splash-subhead { color: white; }
+
+.content-wrapper { background: white; }
+.content-head-ribbon { color: white; }
+.content-subhead { color: #1f8dd6; }
+.ribbon { background: #2d3e50; color: #aaa; }
+.footer { background: #4a2;color:#fff; }
+
+/* pure-table-striped */
+.pure-table-striped tr:nth-child(2n-1) td{background-color: #afc;}
+.pure-table thead{background-color: #fff; color : #6d6;}
+
+
+/* SPGSカスタマイズ（標準） */
+/* 色枠 */
+.spgsjob-color01{background-color: #fff; color: #2b2;}
+.spgsjob-color02{background-color: #2b2; color: #fff;}
+
+.border-waku{ border:1px solid  #6d6;; }
+/* SPGSカスタマイズ（標準）ここまで */
+

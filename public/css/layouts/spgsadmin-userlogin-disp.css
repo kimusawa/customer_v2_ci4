@@ -1,0 +1,112 @@
+.content{height:800px;}
+
+/* ���O�C���ꗗ */
+#table01		{ width : 100%;}
+#table01 .col01	{ width : 4.5rem;}
+#table01 .col02 { width : 3.0rem;}
+#table01 .col03 { width : 10rem;}
+#table01 .col04 { width : 58rem;}
+/* �������� */
+#table02		{ padding-left:0.5rem; padding-right:0.5rem;}
+#table02 .col01	{ width : 5rem;}
+#table02 .col02 { width : 10rem;}
+#table02 .col03 { width : 5rem;}
+#table02 .col04 { width : 10rem;}
+#table02 .col05 { width : 10rem;}
+#table02 .col06 { width : 12rem;}
+#table02 input[type="text"]{width:100%;}
+#table02 input[type="submit"]{margin-left:0.5rem;width:100%;}
+.space-left{ margin-left: 3rem !important;}
+
+
+/* ���f�B�A�N�G�� */
+/* iPhone 5 �c */
+@media (device-width: 320px) {
+#table01		{ width : 30rem;}
+
+}
+/* Galaxy S5 �c */
+@media (device-width: 360px) {
+#table01		{ width : 30rem;}
+
+}
+/* iPhone 6 �c */
+@media (device-width: 375px) {
+#table01		{ width : 30rem;}
+
+}
+/* Nexus �c */
+@media (device-width: 412px) {
+#table01		{ width : 30rem;}
+
+}
+/* iPhone 6 �c */
+@media (device-width: 414px) {
+
+}
+/* iPhone 6 �� */
+@media (device-width: 667px) {
+
+}
+/* iPhone 6 �� */
+@media (device-width: 736px) {
+
+}
+/* iPad �c */
+@media (device-width: 768px) {
+
+}
+/* iPad �� */
+@media (device-width: 1024px) {
+
+}
+/* PC */
+@media screen and (min-width : 1007px) {
+	.content-wrapper{
+		height : calc( 100vh - 98px);
+		top : 95px;
+	}
+	.content{
+		height : calc( 100vh - 154px);
+		min-height : 831px;
+	}
+}
+@media screen and (min-width : 960px) and (max-width : 1006px) {
+	.content-wrapper{
+		top : 95px;
+		height : calc( 100vh - 98px);
+	}
+	.content{
+		height : calc( 100vh - 154px);
+		min-height : 831px;
+	}
+}
+/* Tablet */
+@media screen and (min-width : 767px) and (max-width : 959px) {
+	.content-wrapper{
+		top : 90px;
+		height : calc( 100vh - 111px);
+	}
+	.content{
+		height : calc( 100vh - 129px);
+		min-height : 831px;
+	}
+}
+/* SmartPhone */
+@media screen and (min-width : 568px) and (max-width : 766px) {
+	.content-wrapper{
+		top : 90px;
+		height : calc( 100vh - 107px);
+	}
+	.content{
+		height : calc( 100vh - 133px);
+		min-height : 365px;
+	}
+}
+@media screen and (max-width : 567px) {
+	.content{
+		height : calc( 100vh - 35px);
+		min-height : 840px;
+	}
+}
+

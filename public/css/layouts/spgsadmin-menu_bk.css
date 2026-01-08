@@ -1,0 +1,46 @@
+.content{height:800px;}
+
+/* ログイン一覧 */
+#table01		{ width : 100%;}
+#table01 .col01	{ width : 100%;}
+
+/* ログイン一覧 */
+#table02		{ width : 100%;}
+#table02 .col01	{ width : 6rem;}
+#table02 .col02 { width : 6rem; }
+#table02 .col03 { width : 6rem; }
+#table02 .col04 { width : 6rem; }
+#table02 .col05 { width : 6rem; }
+#table02 .col06 { width : 6rem; }
+#table02 .col07 { width : 6rem; }
+#table02 td	{ padding-top : 0.5rem;}
+
+
+.pwdmail-button	{width:100%;}
+.no-disp 		{display:none;}
+
+/* メディアクエリ */
+/* iPhone 6 縦 */
+@media (device-width: 375px) {
+
+}
+/* iPhone 6 縦 */
+@media (device-width: 414px) {
+
+}
+/* iPhone 6 横 */
+@media (device-width: 667px) {
+
+}
+/* iPhone 6 横 */
+@media (device-width: 736px) {
+
+}
+/* iPad 縦 */
+@media (device-width: 768px) {
+
+}
+/* iPad 横 */
+@media (device-width: 1024px) {
+
+}

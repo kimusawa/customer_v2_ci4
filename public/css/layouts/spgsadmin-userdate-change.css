@@ -1,0 +1,86 @@
+/* �\�����̓e�[�u���Ŕz�u�i���C�A�E�g�g��pure���g����DIV�Łj */
+.content{height:800px;}
+
+/* ���j��� */
+#table01			{ width:100%; }
+#table01 .col01	{ width : 100%; }
+.shokai-subtitle{font-size: 1.6rem; line-height: 2rem;}
+.upload-area	{height : 100px;}
+
+/* iPhone 6 �c */
+@media (device-width: 375px) {
+
+}
+/* iPhone 6 �c */
+@media (device-width: 414px) {
+
+
+}
+/* iPhone 6 �� */
+@media (device-width: 667px) {
+
+}
+/* iPhone 6 �� */
+@media (device-width: 736px) {
+
+}
+/* iPad �c */
+@media (device-width: 768px) {
+.shokai-subtitle{font-size: 1.5rem;}
+
+}
+/* iPad �� */
+@media (device-width: 1024px) {
+.shokai-subtitle{font-size: 1.5rem;}
+
+}
+/* PC */
+@media screen and (min-width : 1007px) {
+	.content-wrapper{
+		height : calc( 100vh - 98px);
+		top : 95px;
+	}
+	.content{
+		height : calc( 100vh - 154px);
+		min-height : 479px;
+	}
+}
+@media screen and (min-width : 960px) and (max-width : 1006px) {
+	.content-wrapper{
+		top : 95px;
+		height : calc( 100vh - 98px);
+	}
+	.content{
+		height : calc( 100vh - 154px);
+		min-height : 428px;
+	}
+}
+/* Tablet */
+@media screen and (min-width : 767px) and (max-width : 959px) {
+	.content-wrapper{
+		top : 90px;
+		height : calc( 100vh - 111px);
+	}
+	.content{
+		height : calc( 100vh - 129px);
+		min-height : 493px;
+	}
+}
+/* SmartPhone */
+@media screen and (min-width : 568px) and (max-width : 766px) {
+	.content-wrapper{
+		top : 90px;
+		height : calc( 100vh - 107px);
+	}
+	.content{
+		height : calc( 100vh - 133px);
+		min-height : 365px;
+	}
+}
+@media screen and (max-width : 567px) {
+	.content{
+		height : calc( 100vh - 35px);
+		min-height : 840px;
+	}
+}
+

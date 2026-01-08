@@ -1,0 +1,41 @@
+/* 表示情報はテーブルで配置（レイアウト枠はpureを使ったDIVで） */
+.content{height:800px;}
+
+/* 検針情報 */
+#table01			{ width:100%; }
+#table01 .col01	{ width : 50%; }
+#table01 .col02	{ width : 50%; }
+.shokai-subtitle{font-size: 2.0rem;}
+.upload-area	{height : 100px;}
+#newpwd, #newpwd2 {width:100%;}
+#newmail, #newmail2 {width:100%;}
+#mail_submit, #pwd_submit  {width:100%; height:2.5rem; margin:10px auto;}
+.tr_hide{ display:none ;}
+
+/* iPhone 6 縦 */
+@media (device-width: 375px) {
+
+}
+/* iPhone 6 縦 */
+@media (device-width: 414px) {
+
+
+}
+/* iPhone 6 横 */
+@media (device-width: 667px) {
+
+}
+/* iPhone 6 横 */
+@media (device-width: 736px) {
+
+}
+/* iPad 縦 */
+@media (device-width: 768px) {
+.shokai-subtitle{font-size: 1.5rem;}
+
+}
+/* iPad 横 */
+@media (device-width: 1024px) {
+.shokai-subtitle{font-size: 1.5rem;}
+
+}
